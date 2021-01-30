@@ -1,0 +1,18 @@
+.python {
+  display: none;
+  width: 50%;
+}
+
+.javaScript {
+  display: none;
+  width: 50%;
+}
+
+.ruby {
+  display: none;
+  width: 50%;
+}
+
+.answerPic {
+  max-width: 25%;
+}
