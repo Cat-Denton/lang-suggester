@@ -27,3 +27,7 @@
   color:blueviolet;
   font-family: fantasy;
 }
+
+form {
+  margin: 40px;
+}
