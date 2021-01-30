@@ -16,3 +16,14 @@
 .answerPic {
   max-width: 25%;
 }
+
+.emphasis {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.vibe {
+  text-decoration: wavy;
+  color:blueviolet;
+  font-family: fantasy;
+}
