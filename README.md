@@ -1,34 +1,34 @@
-# _{Application Name}_
+# _Language Suggester_
 
-#### _{Brief description of application}_
+#### _This webpage suggests a beginning programming language to learn based on user inputs._
 
-#### By _**Cat Denton {List of contributors}**_
+#### By _**Cat Denton**_
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* gitHub
+* HTML
+* CSS
+* Bootstrap
+* javaScript
+* jquery-3.5.1
+* Visual Studio Code
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This webpage takes information submitted by a user and uses a script to tell the user what programming language they should learn. In the current build only the favorite pet and astrological sign has an outcome on which language is selected. When the user hits the submit button the form disappears and their answer appears. The questions and answers are designed to be silly rather than to actually evaluate what language a person should learn._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* required software: Visual Studio Code
+1. Clone repository to a local repository.
+2. Use VS code to read the code.
+3. Open index.html to see the webpage in your default web browser.
+* [gh-pages deployment](https://cat-denton.github.io/lang-suggester/)
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _Results are based only on answers to "favorite pet" and "astrological sign" questions._
 
 ## License
 
