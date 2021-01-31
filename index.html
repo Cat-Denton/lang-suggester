@@ -5,12 +5,35 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
-  <title></title>
+  <title>Picking a language to learn the right way.</title>
 </head>
 <body>
   <div class="container">
     <h1>Let's figure out what programming language you should learn!</h1>
     <p>Some people approach learning your first coding language as an exercise of picking the tools that are going to be of greatest benefit to your career. <span class="emphasis">WELL NOT ME FRIENDO.</span> I think picking the right coding language is about going with your guts and picking the language that you <span class="vibe">vibe</span> with.</p>
+    <h2>Let's get some info from you.</h2>
+    <form id="personalInfo">
+      <div class="form-group">
+        <label for="firstName">First Name</label>
+        <input id="firstName" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="middleName">Middle Name</label>
+        <input id="middleName" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input id="lastName" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender</label>
+        <input id="gender" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="born">Date of birth:</label>
+        <input id="born" class="form-control" type="date">
+      </div>
+    </form>
     <form id="astrologicalSign">
       <label for="sign">To determine your strongest energetical <span class="vibe">wavelength </span>please pick your birth sign</label>
       <select class="form-control" id="sign">
@@ -24,6 +47,7 @@
       </select>
     </form>
     <form id="petList">
+      <label for="petList">Pick your favorite pet! Many options to chooose from!</label>
       <div class="radio">
         <label>
           <input type="radio" name="favPet" value="Cat">
