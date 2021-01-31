@@ -7,6 +7,13 @@ $(document).ready(function(){
     const favFood = $("input#food").val();
     const favColor = $("#color").val();
     const birthDate = $("#born").val();
+    const sign = $("#sign").val();
     const favPet = $("input:radio[name=favPet]:checked").val();
+    
+    if (favPet === "commie") {
+      $("#ruby").show();
+    }
+
+    event.preventDefault();
   });
 });
