@@ -13,6 +13,12 @@ $(document).ready(function(){
     if (favPet === "commie") {
       $(".ruby").show();
       $("#personalInfo").hide();
+    } else if (sign === "Cancer" || sign === "Taurus") {
+      $(".javaScript").show();
+      $("#personalInfo").hide();
+    } else {
+      $(".python").show();
+      $("#personalInfo").hide();
     }
 
     event.preventDefault();
