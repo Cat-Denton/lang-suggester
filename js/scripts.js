@@ -11,7 +11,8 @@ $(document).ready(function(){
     const favPet = $("input:radio[name=favPet]:checked").val();
     
     if (favPet === "commie") {
-      $("#ruby").show();
+      $(".ruby").show();
+      $("#personalInfo").hide();
     }
 
     event.preventDefault();

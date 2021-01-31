@@ -1,15 +1,33 @@
 .python {
   display: none;
+  border: 2px solid green;
+  background-color: white;
+  color: black;
+  padding: 8px 28px;
+  font-size: 20px;
+  font-weight: bolder;
   width: 50%;
 }
 
 .javaScript {
   display: none;
+  border: 2px solid brown;
+  background-color: white;
+  color: black;
+  padding: 8px 28px;
+  font-size: 20px;
+  font-weight: bolder;
   width: 50%;
 }
 
 .ruby {
   display: none;
+  border: 2px solid red;
+  background-color: white;
+  color: black;
+  padding: 8px 28px;
+  font-size: 20px;
+  font-weight: bolder;
   width: 50%;
 }
 
