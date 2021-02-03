@@ -16,6 +16,9 @@ $(document).ready(function(){
     } else if (sign === "Cancer" || sign === "Taurus") {
       $(".javaScript").show();
       $("#personalInfo").hide();
+    } else if (favPet === "cat" && sign === "Virgo") {
+      $(".lua").show();
+      $("#personalInfo").hide();
     } else {
       $(".python").show();
       $("#personalInfo").hide();
