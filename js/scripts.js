@@ -9,14 +9,14 @@ $(document).ready(function(){
     const birthDate = $("#born").val();
     const sign = $("#sign").val();
     const favPet = $("input:radio[name=favPet]:checked").val();
-    
+
     if (favPet === "commie") {
       $(".ruby").show();
       $("#personalInfo").hide();
     } else if (sign === "Cancer" || sign === "Taurus") {
       $(".javaScript").show();
       $("#personalInfo").hide();
-    } else if (favPet === "cat" && sign === "Virgo") {
+    } else if (favPet === "Cat" && sign === "Virgo") {
       $(".lua").show();
       $("#personalInfo").hide();
     } else {
